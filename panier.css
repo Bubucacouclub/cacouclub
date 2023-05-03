@@ -1,0 +1,45 @@
+.panier {
+  margin-top: 10%;
+  margin-right: 15%;
+  margin-left: 15%;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.recap,
+.prix {
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(134, 134, 134);
+  padding: 15px;
+  margin-right: 0%;
+}
+
+.recap,
+.prix {
+  color: rgb(61, 61, 61);
+  position: static;
+  margin-right: 0%;
+}
+
+p {
+  font-size: 25px;
+}
+
+.title {
+  font-size: 35px;
+  font-family: "Anton", sans-serif;
+}
+
+.recap {
+  padding-right: 150px;
+}
+
+.question{
+  display: flex;
+  justify-content: space-evenly;
+  margin: 5px;
+}

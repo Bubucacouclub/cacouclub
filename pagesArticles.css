@@ -1,0 +1,106 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.panneauArticle {
+  margin-top: 10%;
+  margin-left: 20%;
+  margin-right: 20%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.panneauPhoto {
+  width: 450px;
+}
+
+.panneauPhoto img {
+  width: 100%;
+  height: 100%;
+}
+
+.panneauIndic {
+  width: 450px;
+  padding: 30px;
+}
+
+.title {
+  font-size: 28px;
+}
+.exclu {
+  font-size: 18px;
+  margin-left: 10px;
+  color: rgb(255, 159, 15);
+}
+.price {
+  font-size: 22px;
+  margin-top: 20px;
+}
+.promo {
+  background-color: rgb(174, 220, 238);
+  margin-top: 18px;
+  margin-left: 12px;
+  margin-right: 12px;
+  height: 65px;
+}
+.promo p {
+  text-align: center;
+  font-size: 17px;
+  padding-top: 15px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.color {
+  font-size: 20px;
+  margin-top: 10px;
+  color: rgb(75, 75, 75);
+}
+
+.taille {
+  margin-top: 10px;
+  font-size: 25px;
+  text-decoration: underline;
+}
+.lesTailles {
+  margin-top: 20px;
+  font-size: 25px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.ajoutChoix {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.btnAjout, .ajoutPanier {
+  font-size: 22px;
+  padding: 5px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.ajoutPanier{
+  background-color: green;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.infoPlus1{
+  margin-top: 20px;
+  margin-right: 30px;
+  margin-left: 30px;
+  border-style: solid;
+  border-color: grey;
+  border-width: 0.3px;
+  padding: 10px;
+}
+
+.infoPlus {
+font-size: 20px;
+color: grey;
+}

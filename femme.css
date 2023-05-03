@@ -1,0 +1,39 @@
+.principalF {
+  margin-top: 100px;
+  margin-right: 20%;
+  margin-left: 20%;
+  margin-bottom: 100px;
+  box-shadow: 10px 1px 20px rgb(43, 43, 43);
+}
+
+.principalF h1 {
+  margin-left: 120px;
+  text-decoration: underline;
+}
+
+.secondaireF {
+  display: flex;
+  text-align: center;
+  padding: 30px;
+}
+
+.tertiaireF {
+  display: block;
+  width: 25%;
+}
+
+.imgf1 {
+  width: 40.5%;
+  height: 100%;
+}
+
+.imgf2,
+.imgf3 {
+  width: 100%;
+  padding: 0px;
+}
+
+.explication p {
+  font-size: 25px;
+  font-family: "Anton", sans-serif;
+}

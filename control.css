@@ -1,0 +1,17 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+.control {
+    height: 100vh;
+    background-color: antiquewhite;
+}
+
+.control2{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    text-align: center;
+}

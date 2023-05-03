@@ -1,0 +1,92 @@
+.lePanneau {
+  text-align: center;
+  margin-right: 10%;
+  margin-left: 10%;
+  margin-top: 10%;
+  display: flex;
+}
+
+.panneauAvis {
+  background-color: transparent;
+}
+
+.avis,
+.davis {
+  text-align: left;
+  border-radius: 10px;
+  border-style: dashed;
+  padding: 15px;
+  background-color: rgb(158, 158, 255);
+  box-shadow: 10px 1px 20px rgb(43, 43, 43);
+}
+
+.avis {
+  margin-bottom: 30px;
+}
+
+.nomDuClient {
+  font-size: 23px;
+  font-family: "Anton", sans-serif;
+}
+
+.text {
+  padding-top: 15px;
+  font-size: 20px;
+  font-family: "PT Sans Narrow", sans-serif;
+}
+
+.repCons {
+  padding-top: 30px;
+  font-size: 20px;
+  text-decoration: underline;
+  font-family: "Anton", sans-serif;
+}
+.textC {
+  padding-top: 15px;
+  font-size: 20px;
+  font-family: "PT Sans Narrow", sans-serif;
+}
+
+.leSite {
+  width: 35%;
+  background-color: rgb(158, 158, 255);
+  border-style: dashed;
+  box-shadow: 10px 1px 20px rgb(43, 43, 43);
+  margin-left: 30px;
+  border-radius: 10px;
+}
+
+.imgAvis {
+  width: 100%;
+  margin-top: 70px;
+}
+
+.imgAvis img {
+  width: 60%;
+  border-style: dashed;
+  background-color: grey;
+}
+
+.star {
+  margin-top: 30px;
+  font-size: 35px;
+  margin-bottom: 50px;
+}
+
+.avi .p1 {
+  font-size: 30px;
+  margin-bottom: 30px;
+  font-family: "Anton", sans-serif;
+}
+.p2 {
+  font-size: 25px;
+  margin-bottom: 20px;
+  font-family: "PT Sans Narrow", sans-serif;
+}
+.p3 {
+  margin-top: 30px;
+  font-size: 20px;
+  color: green;
+  font-style: oblique;
+  font-family: "PT Sans Narrow", sans-serif;
+}
